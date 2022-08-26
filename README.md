@@ -108,7 +108,7 @@ For CI-CD workflow, add/update ci-cd.yaml file under .github/workflows which man
 Create a new webapp in Heroku and connect it with your github. Choose Automatic Deploy in Heroku and enable _"Wait for CI to pass before deploy"_. 
 Create HEROKU_APP_NAME & HEROKU_API_TOKEN secrets in the github. (NOTE: generate heroku api tokens from applications -> create authorization -> define api token).
 
-This app is deployed on https://wine-quality-analysis.herokuapp.com/ with CI-CD pipeline.
+This app is deployed on https://mleapp.herokuapp.com/ with CI-CD pipeline.
 
 Following image depicts how the deployed app looks like.
 ![alt text](Demo.jpg)
